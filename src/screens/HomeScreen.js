@@ -17,7 +17,7 @@ class HomeScreen extends Component {
       return (
         <ImageBackground
           source={ require('../../assets/background.png') }
-          resizeMode={{ resizeMode: 'strech' }}
+          imageStyle={{ resizeMode: 'stretch' }}
           style={{ 
             flex: 1,
             flexDirection: 'column',
@@ -40,7 +40,7 @@ class HomeScreen extends Component {
           }}>
             <Image source={ require('../../assets/logo_dev_pleno.png') }/>
           </View>
-          <TouchableWithoutFeedback onPress={this.handleCounter()}>
+          <TouchableWithoutFeedback onPress={this.handleCounter}>
             <View style={{ backgroundColor: 'white', paddingBottom: 16, paddingTop: 16 }}>
               <Text style={{textAlign: 'center', fontSize: 18}}>COMEÇAR! {this.state.counter} </Text>
             </View>

@@ -5,6 +5,6 @@ import HomeScreen from './src/screens/HomeScreen'
 
 export default class App extends Component {
   render() {
-    return <HomeSreen/>;
+    return <HomeScreen/>;
   }
 }
