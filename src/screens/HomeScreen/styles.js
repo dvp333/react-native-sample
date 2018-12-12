@@ -26,6 +26,25 @@ export default styles = StyleSheet.create({
     buttonText: {
       textAlign: 'center',
       fontSize: 18,
-      color: black
+      color: 'black'
+    },
+    pin: {
+      marginTop: 16,
+      marginBottom: 16
+    },
+    arrow: {
+      marginTop: 16
+    },
+    buttonEmptyStateBackground: {
+      backgroundColor: 'white',
+      paddingBottom: 16,
+      paddingTop: 16,
+      alignItems: 'center'
+    },
+    buttonEmptyStateText: {
+      textAlign: 'center',
+      fontSize: 18,
+      color: 'black',
+      width: 220,
     }
   })
